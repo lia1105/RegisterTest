@@ -17,11 +17,11 @@ public class EmailActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_email);
-        mail = findViewById(R.id.mail_fill);
+        mail = findViewById(R.id.email);
         final Intent emailintent = getIntent();
         //取得密碼
 
-        final Button endbutton = findViewById(R.id.backtomain);
+        final Button endbutton = findViewById(R.id.next_main);
         endbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

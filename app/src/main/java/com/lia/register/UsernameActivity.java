@@ -11,12 +11,12 @@ import androidx.appcompat.app.AppCompatActivity;
 public class UsernameActivity extends AppCompatActivity {
 
     private EditText user;
-    Button nexttopassword = findViewById(R.id.nexttopassword);
+    Button nexttopassword = findViewById(R.id.next_pw);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_username);
-        user = findViewById(R.id.usname_fill);
+        user = findViewById(R.id.username);
         nexttopassword.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
