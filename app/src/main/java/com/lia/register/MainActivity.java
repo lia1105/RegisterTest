@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
    @Override
     protected void onNewIntent(Intent intent) {
         super.onNewIntent(intent);
-        String name = intent.getStringExtra("ser name");
+        String name = intent.getStringExtra("user name");
         String passid = intent.getStringExtra("password");
         String emailid = intent.getStringExtra("email");
         username.setText(name);
